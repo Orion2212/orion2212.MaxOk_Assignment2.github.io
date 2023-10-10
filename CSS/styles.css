@@ -14,8 +14,7 @@ p{
     font-family: "futura-pt", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: yellow;
-
+    color: white;
 }
 
 header{
@@ -43,9 +42,9 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color:yellow;
-    font-family: 'century-gothic',sans-serif;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
     font-style: normal;
-    font-weight: 600;
     font-size: 28px;
     transition: .3s all ease-in-out;
         
@@ -87,7 +86,7 @@ nav ul li a:hover{
     width: 35%;
 }
 .gallery{
-    
+    min-height: 65rem;
 }
 
 .gallery-images {
@@ -102,6 +101,9 @@ nav ul li a:hover{
     object-fit: cover;
 
 }
+
+
+
 
 .articles h2{
     font-size: 3.5rem;
@@ -132,7 +134,9 @@ nav ul li a:hover{
     direction: row;
     overflow: scroll;
 }
-
+.flex:hover{
+    background-color: yellowgreen;
+}
 footer{
     background-color: darkgoldenrod;
 }
