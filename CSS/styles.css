@@ -1,0 +1,34 @@
+header{
+    background-color: blue;
+}
+
+.hero {
+    background-image: url(../imgs/alex-brisbey-KGQhWwB0tDg-unsplash.jpg);
+    background-size: cover;
+    min-height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    background-color: darkcyan;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+.gallery-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+footer{
+    background-color: darkgoldenrod;
+}
