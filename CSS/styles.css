@@ -18,8 +18,11 @@ p{
 }
 
 header{
-    
+    background-color: yellow;
+    margin: 0%;
+    padding: 0;
 }
+
 nav{
     height: 10vh;
     
@@ -41,7 +44,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color:yellow;
+    color:#222;
     font-family: "futura-pt", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -102,9 +105,6 @@ nav ul li a:hover{
 
 }
 
-
-
-
 .articles h2{
     font-size: 3.5rem;
     color: yellow;
@@ -122,6 +122,8 @@ nav ul li a:hover{
 }
 
 .flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     display: flex;
 }
 
