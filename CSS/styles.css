@@ -1,6 +1,64 @@
-header{
-    background-color: blue;
+
+body{
+    background-color: #222;
 }
+
+h2{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+p{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: yellow;
+
+}
+
+header{
+    
+}
+nav{
+    height: 10vh;
+    
+
+}
+
+nav ul{
+     padding: 0;
+
+
+}
+
+nav ul li{
+       
+    display: inline-block;
+    margin: 20px 15px 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:yellow;
+    font-family: 'century-gothic',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    transition: .3s all ease-in-out;
+        
+
+}
+
+nav ul li a:hover{
+       background-color: yellowgreen;
+          
+}
+
+
+
 
 .hero {
     background-image: url(../imgs/alex-brisbey-KGQhWwB0tDg-unsplash.jpg);
@@ -12,8 +70,24 @@ header{
     align-items: center;
 }
 
+.hero h2{
+    font-size: 3.5rem;
+    color: yellow;
+    text-align: center;
+    padding: 0.625rem 1.25rem;
+    width: 35%;
+}
+
+
+.hero p {
+    font-size: 1.125rem;
+    color: yellow;
+    text-align: center;
+    padding: 0.625rem 1.25rem;
+    width: 35%;
+}
 .gallery{
-    background-color: darkcyan;
+    
 }
 
 .gallery-images {
@@ -27,6 +101,36 @@ header{
     height: 100%;
     object-fit: cover;
 
+}
+
+.articles h2{
+    font-size: 3.5rem;
+    color: yellow;
+    text-align: center;
+    padding: 0.625rem 1.25rem;
+    width: 35%;
+}
+
+.articles p{
+    font-size: 1.125rem;
+    color: yellow;
+    text-align: center;
+    padding: 0.625rem 1.25rem;
+    width: 35%;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex div{
+    
+    border:  4px solid #222;
+    margin: 5px;
+    padding: 5px;
+    transition: .3s all ease-in-out;
+    direction: row;
+    overflow: scroll;
 }
 
 footer{
